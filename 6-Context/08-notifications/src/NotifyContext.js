@@ -26,7 +26,7 @@ export function NotifyProvider({ children }) {
 
   return (
     <NotifyContext.Provider value={value}>
-      <div className="notifications-wrapper">
+      <div className="notification-wrapper">
         <ul>
           {
             messages.map(msg => (
